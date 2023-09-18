@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+  background-color: #071952;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+}
+.container h1{
+  margin: 1rem;
+  color: white;
+}
+.helo{
+  height: 70vh;
+}
+.ql-toolbar{
+  background-color: white;
+  border-radius: 5rem;
+}
+.ql-container{
+  border-radius: 1rem;
+  font-size: 1rem;
+  color: black;
+  box-shadow: .5px .5px 5px 1px;
+  background-color: #F2F7A1;
+  margin-top: 1rem;
+}
+
+@media (max-width:600px) {
+  .ql-toolbar{
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width:300px) {
+  .container h1{
+    font-size: medium;
+  }
+  .helo{
+    height: 60vh;
+  }
+}
+
+@media (max-width:170px) {
+  .helo{
+    height: 40vh;
+  }
+}
